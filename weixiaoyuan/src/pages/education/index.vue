@@ -1,5 +1,5 @@
 <template>
     <div>
-        教育
+        教育123456
     </div>
 </template>
