@@ -1,7 +1,9 @@
 {
   "pages": [
-    "pages/index/main",
-    "pages/logs/main"  ],
+    "pages/home/main",
+    "pages/education/main",
+    "pages/news/main",
+    "pages/mine/main"  ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
@@ -15,13 +17,24 @@
     "borderStyle": "white",
 
     "list": [{
-      "text": "首页",
-      "pagePath": "pages/index/main",
+      "text": "主页",
+      "pagePath": "pages/home/main",
       "iconPath": "static/tabs/home.png",
       "selectedIconPath": "static/tabs/home-active.png"
     }, {
-      "text": "订单",
-      "pagePath": "pages/logs/main",
+      "text": "教务",
+      "pagePath": "pages/education/main",
+      "iconPath": "static/tabs/orders.png",
+      "selectedIconPath": "static/tabs/orders-active.png"
+    },
+    {
+      "text": "消息",
+      "pagePath": "pages/news/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+    }, {
+      "text": "我的",
+      "pagePath": "pages/mine/main",
       "iconPath": "static/tabs/orders.png",
       "selectedIconPath": "static/tabs/orders-active.png"
     }],
